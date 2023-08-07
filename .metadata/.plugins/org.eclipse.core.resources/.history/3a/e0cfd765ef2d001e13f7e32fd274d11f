@@ -1,0 +1,29 @@
+package com.gt.s.kos.vacation.controller;
+
+
+
+import javax.servlet.http.HttpServletRequest;
+
+import org.springframework.ui.Model;
+
+import com.gt.s.kos.spend.controller.GtSpendController;
+import com.gt.s.kos.spend.vo.GtSpendVO;
+
+public class test11 extends GtSpendController{
+
+	public String asd(String s) {
+		
+		return s;
+	}
+	
+	public String asd(String s, String ss) {
+		
+		return s+ss;
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}
